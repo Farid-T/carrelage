@@ -7,12 +7,22 @@
   <title>Calcul Carrelage</title>
 </head>
 <body>
+  <h2>Le prix du carton de 45 carreaux est de 49,90€</h2>
+  
   <form action="/" method="post" >
-    <input type="number" name="surface" placeholder="indiquez la surface ici" >
+    <input type="number" name="surface" placeholder="Indiquez Votre surface ici" >
     <br>
     <br>
-    <button type="submit">Renvoyer le nombre de carreaux nécessaires</button>
+    <button type="submit" name="btnSurf" >Calculez le nombre de carreaux nécessaires</button>
+    <br>
+    <br>
   </form>
   
+  <form action="/" method="post" >
+    <input type="number" name="prix" placeholder="Indiquez Votre surface ici" >
+    <br>
+    <button type="submit" name="btnPrix" >Calculez le prix total</button>
+  </form>
+
 </body>
 </html>
